@@ -64,7 +64,7 @@ public class StreamFilter {
      * @return a list of person object whose name starts with `this.startingCharacter`
      */ //TODO
     public List<Person> toListMultiLine() {
-//        personStream.filter()
+   //   personStream.filter(person -> (person.getName ().startsWith(this.startingCharacter))));
         return null;
     }
 
