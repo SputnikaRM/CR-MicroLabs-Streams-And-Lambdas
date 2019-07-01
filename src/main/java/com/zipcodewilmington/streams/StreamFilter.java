@@ -20,6 +20,7 @@ public class StreamFilter {
      * No arg constructor
      */ //TODO - construct person stream of 100 person objects; startingCharacter is a random capital letter
     public StreamFilter() {
+        //Stream.generate(Person) -> "PersonObjects".limit(10)
         this(Stream.empty(), null);
     }
 
